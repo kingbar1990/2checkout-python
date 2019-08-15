@@ -1,8 +1,22 @@
-*~
-*.lock
-*.DS_Store
-*.swp
-*.out
-*.idea
-*build
+**tmp/
+.env
+
+# Dev
 *.pyc
+.vscode
+/playground.py
+.cookie.jr
+.cookies
+.pytest_cache
+**__pycache__/
+
+# PyPI
+dist
+build
+*.egg-info
+
+# Misc
+.DS_Store
+.idea/
+
+payments.py
